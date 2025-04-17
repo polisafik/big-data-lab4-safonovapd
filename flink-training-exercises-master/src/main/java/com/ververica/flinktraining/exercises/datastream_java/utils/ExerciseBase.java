@@ -37,6 +37,7 @@ public class ExerciseBase {
 		}
 		return rides;
 	}
+	//
 
 	public static SourceFunction<TaxiFare> fareSourceOrTest(SourceFunction<TaxiFare> source) {
 		if (fares == null) {
